@@ -1,0 +1,95 @@
+
+.portfolio-list {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content:center;
+    gap: 8px;
+}
+
+.portfolio-btn, .portfolio-butn {
+    cursor: pointer;
+}
+.portfolio-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--white-color-text);
+    background: var(--blue-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 6px 27px;
+    border: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-list .link.current {
+    color: var(--main-nav-color);
+}
+.portfolio-butn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color-text);
+    padding: 6px 27px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-butn:hover, .portfolio-butn:focus { 
+    color: var(--white-color-text);
+    background-color: var(--main-nav-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.image-items-list {
+    width: calc((100% - 60px) / 3);
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.image-items-list:hover, 
+.image-items-list:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio-text {
+    text-align: left;
+    padding: 20px 24px;
+}
+
+.image-name {
+    margin: 0;
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color-text);
+    
+}
+.image-text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: var(--second-color-text);
+}

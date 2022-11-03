@@ -1,0 +1,91 @@
+
+.profile {
+    background: #F5F4FA;
+}
+
+
+.profile-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}
+
+.profile-list {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.image-profile {
+    width: calc((100% - 90px) / 4);
+    width: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+.border-profile {
+    text-align: center;
+    padding: 30px;
+} 
+
+.profile-name {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--main-color-text);
+    margin-bottom: 10px;
+}
+
+.profile-text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--second-color-text);
+}
+
+.icons-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    padding: 0;
+}
+
+.icons-items-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icons-items-link:hover, .icons-items-link:focus {
+    background-color: #2196F3;
+}
+
+.icons-items-link:hover .team-sos-icons,
+.icons-items-link:focus .team-sos-icons{
+    fill: #fff;
+   }
+
+.team-sos-icons {
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-sos-icons:hover, .team-sos-icons:focus{
+    fill: #fff;
+}
