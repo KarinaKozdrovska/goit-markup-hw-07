@@ -3,20 +3,20 @@
     background: #F5F4FA;
 }
 
-
-.profile-title {
-    margin-top: 0;
-    margin-bottom: 50px;
+.profile__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.03em;
+    color: var(--main-color-text);
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: 700;
+    text-align: center;
     color: #212121;
-
 }
 
-.profile-list {
+.profile-list__list {
     display: flex;
     gap: 30px;
     padding: 0;
@@ -24,7 +24,7 @@
     
 }
 
-.image-profile {
+.profile-list__image {
     width: calc((100% - 90px) / 4);
     width: 270px;
     background: #FFFFFF;
@@ -33,12 +33,12 @@
 }
 
 
-.border-profile {
+.profile-list__border {
     text-align: center;
     padding: 30px;
 } 
 
-.profile-name {
+.profile-list__name {
     margin-top: 0;
     font-weight: 500;
     font-size: 16px;
@@ -47,14 +47,14 @@
     margin-bottom: 10px;
 }
 
-.profile-text {
+.profile-list__text {
     margin: 0;
     font-size: 16px;
     line-height: 1.2;
     color: var(--second-color-text);
 }
 
-.icons-list {
+.profile-list__icons {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -62,7 +62,7 @@
     padding: 0;
 }
 
-.icons-items-link {
+.profile-list__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -76,11 +76,11 @@
     }
 }
 
-.team-sos-icons {
+.profile-list__team {
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    .icons-items-link:hover &,
-    .icons-items-link:focus &{
+    .profile-list__link:hover &,
+    .profile-list__link:focus &{
     fill: #fff;
    }
    &:hover, &:focus{

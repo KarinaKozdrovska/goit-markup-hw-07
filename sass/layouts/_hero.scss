@@ -1,5 +1,5 @@
 
-.hero-title {
+.hero__title {
     margin-top: 0;
     margin-bottom: 50px;
     font-weight: 700;
@@ -14,33 +14,27 @@
     color: var(--main-color-text);
 }
 
-.hero-list {
+.hero-list__list {
     display: flex;
     gap: 30px;
     padding: 0;
     margin: 0;
 }
 
-.hero-item {
+.hero-list__item{
     width: calc((100% - 60px)/3);
 }
 
-.profile-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    color: var(--main-color-text);
-}
-
-.whatwedo-link {
+.hero-list__whatwedo {
     position: relative;
 }
 
-.whatwedo-div {
+.hero-list__link {
     position: relative;
 }
 
-.whatwedo-sub-title {
+
+.hero-list__subtitle {
     position: absolute;
     bottom: 0;
     left: 0;
