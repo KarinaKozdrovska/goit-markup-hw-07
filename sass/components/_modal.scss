@@ -54,12 +54,13 @@
 }
 
 .modal-title {
+    @include font(700, 20px, 1.15, 0.03em);
     margin-top: 0;
     margin-bottom: 12px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
-    letter-spacing: 0.03em;
+    // font-weight: 700;
+    // font-size: 20px;
+    // line-height: 1.15;
+    // letter-spacing: 0.03em;
     color: var(--main-color-text);
 }
 
@@ -203,11 +204,8 @@
  */
 
 .modal-form-submit {
+    @include font(700, 16px, 1.8, 0.06em);
     display: block;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.8;
-    letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: var(--main-nav-color);
     border-radius: 4px;

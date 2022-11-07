@@ -12,12 +12,13 @@
     }
     
     .features-list__title {
+        @include font(700, 14px, 1.14, 0.03em);
         margin-top: 0;
         margin-bottom: 10px;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
+        // font-weight: 700;
+        // font-size: 14px;
+        // line-height: 1.14;
+        // letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--main-color-text);
     }
