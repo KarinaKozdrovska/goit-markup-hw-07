@@ -1,5 +1,5 @@
-.features {
-    padding-bottom: 0;
+    .features {
+        padding-bottom: 0;
     }
     
     
@@ -23,6 +23,9 @@
     
     .item {
         width: calc((100% - 90px)/4);
+        .feature-list & {
+            width: 300px;
+        }
     }
     
     .icon-container {
@@ -33,9 +36,7 @@
         height: 120px;
         margin-bottom: 30px;
     }
-    .feature-list .item {
-        width: 300px;
-    }
+    
     
     .features-text {
         margin-top: 0;

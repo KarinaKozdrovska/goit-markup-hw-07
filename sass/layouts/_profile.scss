@@ -71,21 +71,20 @@
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus {
+        background-color: #2196F3;
+    }
 }
-
-.icons-items-link:hover, .icons-items-link:focus {
-    background-color: #2196F3;
-}
-
-.icons-items-link:hover .team-sos-icons,
-.icons-items-link:focus .team-sos-icons{
-    fill: #fff;
-   }
 
 .team-sos-icons {
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.team-sos-icons:hover, .team-sos-icons:focus{
+    .icons-items-link:hover &,
+    .icons-items-link:focus &{
     fill: #fff;
+   }
+   &:hover, &:focus{
+    fill: #fff;
+   }
 }
+

@@ -24,9 +24,9 @@
     padding-right: 24px;
     margin-top: 0;
     background-color: rgba(33, 150, 243, 0.9); 
-}
-
-.image-items-list:hover .overlay,
-.image-items-list:focus .overlay {
+    .image-items-list:hover &,
+    .image-items-list:focus & {
     transform: translate(0, 0);
 }
+}
+
