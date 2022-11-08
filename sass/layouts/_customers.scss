@@ -1,14 +1,10 @@
 .clients__title {
     @include font(700, 36px, 1.16, 0.03em);
-    // font-weight: 700;
-    // font-size: 36px;
-    // line-height: 1.16;
     text-align: center;
-    // letter-spacing: 0.03em;
     color: var(--main-color-text);
     margin-bottom: 50px;
     }
-.clientes-list__list {
+.clientes-list {
         display: flex;
         gap: 30px;
         justify-content: center;

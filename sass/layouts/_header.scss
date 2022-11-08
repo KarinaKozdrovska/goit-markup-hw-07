@@ -1,5 +1,4 @@
 
-
 .menu {
     margin: 0;
     display: flex;
@@ -16,10 +15,6 @@
     display: block;
     text-decoration: none;
     padding: 32px 0;
-    // font-weight: 500;
-    // font-size: 14px;
-    // line-height: 1.14;
-    // letter-spacing: 0.02em;
     color: var(--main-color-text);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
     &:hover {
@@ -90,10 +85,6 @@
 .connect__tm {
     @include font(500, 14px, 1.14, 0.02em);
     padding: 32px 0;
-    // font-weight: 500;
-    // font-size: 14px;
-    // line-height: 1.14;
-    // letter-spacing: 0.02em;
     color: var(--second-color-text);
     &:hover, &:focus { 
         color: var(--main-nav-color);
@@ -114,9 +105,6 @@
     @include font(700, 26px, 1.14);
     margin-right: 93px; 
     font-family: 'Raleway', sans-serif;
-    // font-weight: 700;
-    // font-size: 26px;
-    // line-height: 1.14;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
