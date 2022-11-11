@@ -9,7 +9,7 @@
 }
 
 .footer-social-title {
-    @include font(700, 14px, 1.14, );
+    @include font(700, 14px, 1.14, 0.03em);
     padding: 0;
     display: flex;
     justify-content: left;

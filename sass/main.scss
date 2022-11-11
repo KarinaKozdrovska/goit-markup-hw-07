@@ -1,10 +1,11 @@
 @import './base/reset';
 @import './utils/var';
+@import './utils/mixin';
 @import './base/common';
 @import './base/logo-1';
 @import './utils/hidden';
 @import './components/section';
-@import './components/container.scss';
+@import './components/container';
 @import './components/modal';
 
 
@@ -16,7 +17,7 @@
 @import './layouts/customers';
 @import './layouts/portfolio';
 @import './layouts/footer';
-@import './layouts/findusfooter.scss';
+@import './layouts/findusfooter';
 @import './layouts/hoveroverlay';
 @import './layouts/formfooter';
 
